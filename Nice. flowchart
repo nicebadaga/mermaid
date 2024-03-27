@@ -1,0 +1,18 @@
+graph LR
+A[Run-of-Mine (ROM) Ore] --> B{Jaw Crusher/Gyratory Crusher}
+B --> C{Crushed Ore}
+C --> D{SAG Mill/Ball Mill}
+D --> E{Slurry}
+E --> F{Flotation Cell}
+    F {Collectors (attach to Cu & Au)}
+    F {Frothers (create air bubbles)}
+    F {Modifiers (control pH & interactions)}
+F --> G{Air}
+F --> H{Hydrophobic Cu & Au (to Froth)}
+F --> I{Hydrophilic Waste (to Pulp)}
+H --> J{Copper-Gold Concentrate}
+J --> K{Ball Mill (regrind)}
+K --> L{Copper Concentrate}
+I --> M{Tailings}
+M --> N{Tailings Storage Facility (TSF)}
+L --> O{Transport & Smelting}
